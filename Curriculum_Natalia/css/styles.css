@@ -1,155 +1,196 @@
-header {
-  position: absolute;
-  width: 1440px;
-  height: 188.19px;
-  left: 0px;
-  top: 0px;
-  background: #e6e6e6;
+/**Se importa fuentes**/
+@font-face {
+  font-family: "Yellowtail";
+  src: url("../fonts/Yellowtail-Regular.ttf");
 }
-.section-logo-batman {
-  position: absolute;
-  width: 100px;
-  height: 146.37px;
-  left: 670px;
-  top: 20.91px;
-  background:  #000 center/cover url("/img/perfil.png") no-repeat
+
+html {
+  background-color: #e6e6e6;
 }
-main {
-  font-family: "Times New Roman", Times, serif;
+.inicio {
+  background-image: url("../img/computer.gif");
+  background-size: cover;
+  background-position: center center;
 }
-.title {
-  position: absolute;
-  width: 1440px;
-  height: 60px;
-  left: 0px;
-  top: 188px;
-  background: #c4c4c4;
-}
-h1 {
-  color: #005677;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 29.64px;
+.inicio .contenido-seccion {
   text-align: center;
-  letter-spacing: 10px;
-}
-.section-personal-information {
-  position: absolute;
-  width: 1440px;
-  height: 107px;
-  left: 0px;
-  top: 40px;
-}
-.subtitulo1 {
-  position: absolute;
-  width: 1440px;
-  height: 30px;
-  left: 0px;
-  top: 376px;
-  background: #c4c4c4;
 }
 
-h2 {
-  font-style: normal;
-  font-weight: 700;
+.inicio .contenido-seccion header {
+  padding: 30px;
+}
+.inicio .contenido-seccion header nav {
+  background-color: #940253;
+  padding: 15px;
+  text-align: left;
+  position: fixed;
+  border-radius: 15px;
+}
+
+.inicio .contenido-seccion header nav a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
   font-size: 20px;
-  line-height: 10.69%;
-  letter-spacing: 5px;
-  color: #005677;
 }
 
-#item-personal-information {
-  position: absolute;
-  width: 500px;
-  height: 13px;
-  top: 424px;
+.inicio .contenido-seccion .info {
+  margin-top: 130px;
 }
-span {
-  font-weight: 700;
-  font-size: 15px;
-  color: #000000;
+
+.inicio .contenido-seccion .info h1 {
+  font-size: 2em;
+  letter-spacing: 10px;
+  font-weight: 20px;
+}
+
+.inicio .contenido-seccion .info h2 {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 10px;
+}
+
+.inicio .contenido-seccion .foto img {
+  max-width: 200px;
+  border-radius: 50%;
+  border: 5px solid #940253;
+  left: 45%;
+  top: 300px;
+}
+
+.contenido-informacion-personal {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.contenido-informacion-personal h2 {
+  background: rgb(250, 219, 216);
+  font-style: normal;
+  letter-spacing: 5px;
+  font-family: "Yellowtail";
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #940253;
+  padding: 10px;
+}
+
+.contenido-informacion-personal .informacion-personal span {
+  font-weight: bold;
   line-height: 84.69%;
-}
-#item-personal-information span {
   font-style: italic;
 }
 
-.section-academic-information {
-  position: absolute;
-  width: 1440px;
-  height: 30px;
-  left: 0px;
-  top: 600px;
-  background: #c4c4c4;
+.contenido-informacion-academica {
+  margin-top: 50px;
+  font-size: 20px;
 }
-h2 {
+
+.contenido-informacion-academica h2 {
+  background: rgb(250, 219, 216);
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 10.69%;
   letter-spacing: 5px;
-  color: #005677;
+  font-family: "Yellowtail";
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #940253;
+  padding: 10px;
 }
 
-#item-academic-information {
-  position: absolute;
-  width: 550px;
-  height: 34px;
-  left: 20px;
-  top: 50px;
-}
-dl {
-  display: grid;
-  grid-template-columns: max-content auto;
+.contenido-informacion-academica .informacion-academica {
+  margin-left: 20px;
 }
 
-dt {
-  grid-column-start: 1;
+.contenido-informacion-academica .informacion-academica .parrafo-indexado1 {
+  text-indent: 6.8em;
+}
+.contenido-informacion-academica .informacion-academica .parrafo-indexado2 {
+  text-indent: 5.1em;
 }
 
-dd {
-  grid-column-start: 2;
-  margin-inline-start: 5px;
+.contenido-informacion-academica .informacion-academica span {
+  font-weight: bold;
+  line-height: 84.69%;
 }
 
-.section-work-experience {
-  position: absolute;
-  width: 1440px;
-  height: 30px;
-  left: 0px;
-  top: 780px;
-  background: #c4c4c4;
-}
-footer {
-  position: absolute;
-  width: 1440px;
-  height: 37px;
-  left: 0px;
-  top: 1000px;
-  background: #005677;
-}
-#span-footer {
+.contenido-experiencia-laboral {
+  margin-top: 50px;
   font-size: 20px;
-  color: #ffffff;
-  left: 400px;
-  position: absolute;
-  line-height: 150.69%;
 }
 
-.footer-logo_instagram {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 872px;
-  top: 5px;
-  background: url("../img/ico_instagram.png");
+.contenido-experiencia-laboral h2 {
+  background: rgb(250, 219, 216);
+  font-style: normal;
+  letter-spacing: 5px;
+  font-family: "Yellowtail";
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #940253;
+  padding: 10px;
 }
-.footer-logo-linkedin{
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 918px;
-  top: 5px;
-  background: url("../img/ico_linkedin.png");
+
+.contenido-experiencia-laboral .informacion-laboral {
+  margin-left: 20px;
+}
+
+.contenido-experiencia-laboral .informacion-laboral span {
+  font-weight: bold;
+  line-height: 84.69%;
+}
+
+.contenido-experiencia-laboral .informacion-laboral .parrafo-indexado1 {
+  text-indent: 19.5em;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #202020;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  height: 60px;
+  font-size: 20px;
+}
+
+.pie-pagina i {
+  color: #fff;
+}
+
+.pie-pagina a {
+  display: inline-block;
+  background-color: #000;
+  border: 1px solid #940253;
+  border-radius: 50%;
+  width: 40px;
+  line-height: 35px;
+}
+
+.contenido-sobre-mi {
+  display: flex;
+  font-size: 20px;
+}
+.sobre-mi {
+  text-align: justify;
+  margin-left: 55px;
+  max-width: 95%;
+}
+
+.sobre-mi h2{
+  font-family: "Yellowtail";
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+.contacto{
+  background-color: #202020;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #e6e6e6;
+  text-align: center;
+
+}
+
+.contacto .contenido-seccion .titulo-seccion{
+  font-family: "Yellowtail";
+  font-size: 30px;
 }
